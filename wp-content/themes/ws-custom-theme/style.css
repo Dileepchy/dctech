@@ -1,0 +1,44 @@
+/*
+ Theme Name: Dctech
+ Description: blog,shop
+ Author: Dctech
+ Author URI: https://wordpress.org/
+ Version: 1.3
+*/
+
+.menu {
+    display: flex;
+    margin-top: 100px;  
+   }
+
+   .menu li {
+    list-style: none;
+    margin: 0px 30px;
+   }
+   
+   .page-status h1 {
+    width: 50%;
+    float: left;
+   }
+   
+   .page-status h2{
+    width: 50%;
+    float: right;
+   }
+
+   figure {
+    width: 60%;
+    display: flex;
+   }
+
+   figure img {
+    width: 100%;
+    margin: 10px;
+   }
+   
+   /* active page in header */
+   .current_page_parent a,  .current_page_item a {
+    border-bottom: 1px solid red;
+    color: red;
+    padding: 10px;
+   }
